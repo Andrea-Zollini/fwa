@@ -9,9 +9,15 @@ class DatabaseSeeder extends Seeder
 {
     public function run(): void
     {
-        User::factory()->create([
-            'name' => 'Giuseppe Meazza',
-            'email' => 'peppe@test.com',
-        ]);
+        if (app()->environment() !== 'production') {
+            User::factory()->create([
+                'name' => 'Giuseppe Meazza',
+                'email' => 'peppe@test.com',
+            ]);
+        }
+
+        $this->callOnce(
+            class: DefaultRoleSeeder::class,
+        );
     }
 }

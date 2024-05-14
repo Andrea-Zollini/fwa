@@ -18,7 +18,7 @@ class UserObserver
         $this->bus->dispatch(
             command: new AssignRoleToUser(
                 user: $user,
-                role: 'guest',
+                role: 'user',
             ),
         );
     }

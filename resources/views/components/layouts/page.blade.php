@@ -1,7 +1,7 @@
 @props(['title' => config('app.name')])
 
 <!DOCTYPE html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}" class="h-full bg-slate-50 dark:bg-slate-900">
+<html lang="{{ str_replace('_', '-', app()->getLocale()) }}" class="h-full bg-slate-50 dark:bg-slate-900 dark:text-slate-50">
 
 <head>
     <meta charset="utf-8">
@@ -12,14 +12,12 @@
     <link href="https://fonts.bunny.net/css?family=figtree:400,600&display=swap" rel="stylesheet" />
 
     @vite(['resources/css/app.css', 'resources/js/app.js'])
-    <@livewireStyles>
+    <livewire:styles>
 </head>
 
 <body>
-    <h1 class="text-3xl font-bold underline">
-        {{ $slot }}
-        <@livewireScripts>
-    </h1>
+    {{ $slot }}
+    <livewire:scripts>
 </body>
 
 </html>

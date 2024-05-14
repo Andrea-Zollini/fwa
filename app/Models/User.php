@@ -2,6 +2,9 @@
 
 namespace App\Models;
 
+use App\Observers\UserObserver;
+use DirectoryTree\Authorization\Traits\Authorizable;
+use Illuminate\Database\Eloquent\Attributes\ObservedBy;
 use Illuminate\Database\Eloquent\Concerns\HasUuids;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\SoftDeletes;
@@ -19,8 +22,11 @@ use Illuminate\Notifications\Notifiable;
  * @property null|CarbonInterface $updated_at
  * @property null|CarbonInterface $deleted_at
  */
+
+#[ObservedBy(classes: UserObserver::class)]
 class User extends Authenticatable
 {
+    use Authorizable;
     use HasFactory;
     use Notifiable;
     use HasUuids;

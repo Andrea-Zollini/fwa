@@ -1,0 +1,215 @@
+{
+    "workout_components": [
+        {
+            "name": "Chest",
+            "exercises": [
+                {
+                    "name": "Bench Press",
+                    "description": "Lie on a flat bench and press a barbell up and down to target your chest muscles.",
+                    "type": "compound",
+                    "equipment": "free weights"
+                },
+                {
+                    "name": "Dumbbell Chest Press",
+                    "description": "Sit or stand with dumbbells at shoulder height, then press the dumbbells forward to target your chest muscles.",
+                    "type": "compound",
+                    "equipment": "free weights"
+                },
+                {
+                    "name": "Incline Bench Press",
+                    "description": "Adjust an incline bench to a comfortable height and perform a bench press to target your upper chest muscles.",
+                    "type": "compound",
+                    "equipment": "free weights"
+                },
+                {
+                    "name": "Push-ups",
+                    "description": "Start in a plank position, then lower your body until your chest almost touches the ground before pushing back up to target your chest muscles.",
+                    "type": "compound",
+                    "equipment": "bodyweight"
+                },
+                {
+                    "name": "Cable Flyes",
+                    "description": "Stand facing a cable machine with the cables at shoulder height. Perform flyes to target your chest muscles.",
+                    "type": "isolation",
+                    "equipment": "free weights"
+                }
+            ]
+        }
+				
+				{
+            "name": "Legs",
+            "exercises": [
+                {
+                    "name": "Squats",
+                    "description": "Stand with your feet shoulder-width apart, then bend your knees and lower your body until your thighs are parallel to the ground before standing back up.",
+                    "type": "compound",
+                    "equipment": "bodyweight"
+                },
+                {
+                    "name": "Leg Press",
+                    "description": "Sit at a leg press machine and push the platform away from you with your feet to target your quadriceps muscles.",
+                    "type": "compound",
+                    "equipment": "free weights"
+                },
+                {
+                    "name": "Lunges",
+                    "description": "Stand with your feet together, take a large step forward with one foot, and lower your body until your back knee almost touches the ground before pushing back up to target your quadriceps and hamstrings muscles.",
+                    "type": "compound",
+                    "equipment": "bodyweight"
+                },
+                {
+                    "name": "Leg Extensions",
+                    "description": "Sit at a leg extension machine and lift the weight up with your legs to target your quadriceps muscles.",
+                    "type": "isolation",
+                    "equipment": "free weights"
+                },
+                {
+                    "name": "Calf Raises",
+                    "description": "Stand facing a calf raise machine and lift the weight up with your heels to target your calf muscles.",
+                    "type": "isolation",
+                    "equipment": "bodyweight"
+                }
+            ]
+        },
+        {
+            "name": "Shoulders",
+            "exercises": [
+                {
+                    "name": "Shoulder Press",
+                    "description": "Stand with your feet shoulder-width apart, hold dumbbells at shoulder height, and press them straight up over your head.",
+                    "type": "compound",
+                    "equipment": "free weights"
+                },
+                {
+                    "name": "Lateral Raises",
+                    "description": "Hold dumbbells at your sides, lift them out to the sides until they are at shoulder level, and then lower them back down.",
+                    "type": "isolation",
+                    "equipment": "free weights"
+                },
+                {
+                    "name": "Front Raises",
+                    "description": "Hold dumbbells in front of you, lift them straight up over your head, and then lower them back down.",
+                    "type": "isolation",
+                    "equipment": "free weights"
+                },
+                {
+                    "name": "Rear Delt Flys",
+                    "description": "Stand with your feet shoulder-width apart, hold dumbbells at shoulder height, and lift them straight up over your head, keeping your arms straight.",
+                    "type": "isolation",
+                    "equipment": "free weights"
+                },
+                {
+                    "name": "Arnold Press",
+                    "description": "Sit or stand with a bench, hold dumbbells at shoulder height, and press them forward in front of you, then lower them back down.",
+                    "type": "compound",
+                    "equipment": "free weights"
+                }
+            ]
+        },
+        {
+            "name": "Triceps",
+            "exercises": [
+                {
+                    "name": "Overhead Tricep Extensions",
+                    "description": "Stand with your feet shoulder-width apart, hold a dumbbell or barbell over your head, and lower it behind your head before extending back to the starting position.",
+                    "type": "isolation",
+                    "equipment": "free weights"
+                },
+                {
+                    "name": "Close-Grip Bench Press",
+                    "description": "Lie on a flat bench, grip the bar with your hands shoulder-width apart, and press it upwards, keeping your upper arms still and only moving your forearms.",
+                    "type": "compound",
+                    "equipment": "free weights"
+                },
+                {
+                    "name": "Skull Crushers",
+                    "description": "Lie on a flat bench, hold a dumbbell or barbell over your chest, and press it downwards towards your forehead before extending back to the starting position.",
+                    "type": "isolation",
+                    "equipment": "free weights"
+                },
+                {
+                    "name": "Tricep Kickbacks",
+                    "description": "Hold a dumbbell with your arm bent at a 90-degree angle, lift it backwards towards your hip, and then lower it back down to the starting position.",
+                    "type": "isolation",
+                    "equipment": "bodyweight"
+                },
+                {
+                    "name": "Dips (Bodyweight Only)",
+                    "description": "Sit on the edge of a bench or chair with your hands grasping the edge, and lower your body by bending your elbows until your arms are bent at a 90-degree angle before straightening back up.",
+                    "type": "isolation",
+                    "equipment": "bodyweight"
+                }
+            ]
+        },
+        {
+            "name": "Biceps",
+            "exercises": [
+                {
+                    "name": "Barbell Curls",
+                    "description": "Stand with your feet shoulder-width apart, grip a barbell with an underhand grip, and curl the weight up towards your shoulders before lowering it back down.",
+                    "type": "compound",
+                    "equipment": "free weights"
+                },
+                {
+                    "name": "Dumbbell Curls",
+                    "description": "Hold a dumbbell with an underhand grip, bend your knees slightly, and curl the weight up towards your shoulders before lowering it back down.",
+                    "type": "isolation",
+                    "equipment": "free weights"
+                },
+                {
+                    "name": "Hammer Curls",
+                    "description": "Hold a dumbbell with an underhand grip, bend your knees slightly, and curl the weight up towards your shoulders with your palms facing towards your body before lowering it back down.",
+                    "type": "isolation",
+                    "equipment": "free weights"
+                },
+                {
+                    "name": "Preacher Curls",
+                    "description": "Sit on a preacher curl bench, grip the bar with an underhand grip, and curl the weight up towards your shoulders before lowering it back down.",
+                    "type": "isolation",
+                    "equipment": "free weights"
+                },
+                {
+                    "name": "Incline Dumbbell Curls",
+                    "description": "Sit on an incline bench, hold a dumbbell with an underhand grip, and curl the weight up towards your shoulders before lowering it back down.",
+                    "type": "isolation",
+                    "equipment": "free weights"
+                }
+            ]
+        },
+        {
+            "name": "Core",
+            "exercises": [
+                {
+                    "name": "Plank",
+                    "description": "Start in a push-up position with your hands shoulder-width apart, engage your core muscles by drawing your belly button towards your spine, and hold for as long as possible.",
+                    "type": "isolation",
+                    "equipment": "bodyweight"
+                },
+                {
+                    "name": "Russian Twists",
+                    "description": "Sit on the floor with your knees bent and feet flat, lean back slightly, and twist your torso from side to side, touching a weight or medicine ball to each side.",
+                    "type": "isolation",
+                    "equipment": "free weights"
+                },
+                {
+                    "name": "Leg Raises",
+                    "description": "Lie on your back with your arms extended overhead, raise your legs straight up towards the ceiling, and then lower them back down without touching the floor.",
+                    "type": "isolation",
+                    "equipment": "bodyweight"
+                },
+                {
+                    "name": "Bicycle Crunches",
+                    "description": "Lie on your back with your hands behind your head, alternate bringing each elbow towards the opposite knee as if pedaling a bicycle.",
+                    "type": "isolation",
+                    "equipment": "bodyweight"
+                },
+                {
+                    "name": "Pallof Press",
+                    "description": "Hold a weight or medicine ball with both hands, stand with your feet shoulder-width apart, and press the weight out in front of you, then pull it back towards your chest.",
+                    "type": "isolation",
+                    "equipment": "free weights"
+                }
+            ]
+        }
+    ]
+}

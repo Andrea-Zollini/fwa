@@ -14,10 +14,10 @@ class DefaultRoleSeeder extends Seeder
             'name' => 'administrator',
             'label' => 'Admin',
         ]);
-        Role::query()->updateOrCreate([
-            'name' => 'trainer',
-            'label' => 'Trainer',
-        ]);
+        // Role::query()->updateOrCreate([
+        //     'name' => 'trainer',
+        //     'label' => 'Trainer',
+        // ]);
         Role::query()->updateOrCreate([
             'name' => 'user',
             'label' => 'User',

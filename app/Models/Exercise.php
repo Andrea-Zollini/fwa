@@ -26,4 +26,9 @@ class Exercise extends Model
         'equipment',
         'muscle_group',
     ];
+
+    public function workouts()
+    {
+        return $this->belongsToMany(Workout::class);
+    }
 }

@@ -22,4 +22,14 @@ class Workout extends Model
         'description',
         'sets'
     ];
+
+    public function exercises()
+    {
+        return $this->hasMany(Exercise::class);
+    }
+
+    public function user()
+    {
+        return $this->belongsTo(User::class);
+    }
 }

@@ -17,6 +17,8 @@ return new class extends Migration
 
 
             $table->string('name');
+            $table->string('goal');
+            $table->string('preferred_workout_mode');
             $table->string('email')->unique();
             $table->string('password');
             $table->rememberToken();

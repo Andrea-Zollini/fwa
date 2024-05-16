@@ -1,13 +1,13 @@
-<x-layouts.guest title="Login Page">
+<x-layouts.guest title="Login Page" heading="Sign in to your account">
     <div class="flex flex-col justify-center min-h-full px-6 py-12 lg:px-8">
       <div class="p-5 px-10 sm:mx-auto sm:w-full sm:max-w-sm bg-black/5 rounded-xl dark:bg-white/5">
               <div class="">
                 <img class="w-auto h-10 mx-auto" src="https://tailwindui.com/img/logos/mark.svg?color=orange&shade=600" alt="Your Company">
-                <h2 class="mt-10 text-2xl font-bold leading-9 tracking-tight text-center">Sign in to your account</h2>
+                <x-text.h2>Sign in to your account</x-text.h2>
               </div>
             
               <div class="mt-10 ">
-                <form class="space-y-6" wire:submit='submit'>
+                <form class="space-y-6" wire:submit='submit' method="POST">
                   <div>
                     <label for="email" class="block text-sm font-medium leading-6">Email address</label>
                     <div class="mt-2">

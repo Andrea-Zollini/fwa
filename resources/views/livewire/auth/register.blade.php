@@ -7,7 +7,7 @@
             </div>
           
             <div class="mx-5 mt-10">
-              <form class="space-y-6" action="#" method="POST">
+              <form class="space-y-6" wire:submit='submit'>
                 <div>
                   <label for="name" class="block text-sm font-medium leading-6">Name</label>
                   <div class="mt-2">
